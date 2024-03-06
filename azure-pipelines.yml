@@ -11,7 +11,7 @@ variables:
 
 steps:
   - task: UseDotNet@2
-    displayName: 'Use .NET SDK $(dotnetDSKversion)'
+    displayName: 'Use .NET SDK $(dotnetSDKversion)'
     inputs:
       packageType: sdk
       version: $(dotnetDSKversion)
